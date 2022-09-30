@@ -16,3 +16,24 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* timer */
+.timer {
+  display: flex;
+}
+
+.field {
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 80px;
+}
+
+.value {
+font-family: 'Noto Sans Mono', monospace;
+font-size: 38px;
+}
+
+.label {
+  font-family: 'Noto Sans Mono', monospace;
+}
